@@ -72,11 +72,9 @@ var cardContent12 = {
   price: '$' + 26 + '.00'
 }
 
-
 var rowResults = document.createElement('div')
 rowResults.classList.add('row') // creating row to insert columns
 document.getElementById('searchResultContainer').appendChild(rowResults) // searchResultContainer is the container id in which this row is contained
-
 
 function createCardResults(content){ // creating the function that grabs the object list from above and places content where specified
 
